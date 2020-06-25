@@ -1,0 +1,27 @@
+body{
+	background-color: orange;
+}
+
+#queue-div{
+	width: 25%;
+	height: 30px;
+	display: flex;
+	justify-content: space-between;
+	/*border: 2px solid white;*/
+	font-size: 10px;
+	color: white;
+	margin-bottom: 3px;
+
+
+
+}
+#queue-div div{
+	margin-right: 2px;
+	height: 100%;
+	width: 65%;
+	/*border: 2px solid black;*/
+}
+#queue-song-image{
+	background-image: url(image/songs-cover.jpg);
+	background-size: cover;
+}

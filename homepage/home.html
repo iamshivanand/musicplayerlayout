@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		My Player
+	</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://kit.fontawesome.com/cadcfbd94b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+	<header id="body-header">
+		<nav class="text-center  nav-menu"></nav>
+		
+		<ul class="horizontal-list">
+			<!-- music player icon --> 
+			<li id="music-icon-nav"><a href="#"><i class="fas fa-music"></i></a></li>
+			<!-- favorites lsit link -->
+			<li><a href="#">Favourites</a></li>
+			<!-- search bar -->	
+			<li>
+				<div class="search-bar"><a href="#"><i class="fas fa-search"></i></a>
+				<input type="text" class="search" name="search" placeholder="search...">
+				</div>
+			</li>	
+			<li>
+				<div id="logo-img-container"></div>	
+			</li>
+		</ul>	
+	</header>
+
+
+	<main>
+	
+		<!-- top-songs -->
+		<div id="top-songs">
+			<div class="top-songs-div margin-class"></div>
+			<div class="top-songs-div margin-class"></div>
+			<div class="top-songs-div margin-class"></div>
+		</div>
+		<!-- Latest-release -->
+		<h3 class="text-color div-heading">Latest Release</h3>
+		
+			
+			<div id="latest-songs-container" >
+				<div id="latest-song-container" class="margin-class">
+						<div id="latest-song-image"></div>
+						<div style="align-items: center;">
+							Beliver
+							<br>
+							APR 3,2020
+						</div>	
+						<div style=" flex-direction: row-reverse;font-weight: bolder;">
+							...
+							<br>
+							4:44
+						</div>
+				</div>
+				<div id="latest-song-container" class="margin-class">
+						<div id="latest-song-image"></div>
+						<div style="align-items: center;">
+							Beliver
+							<br>
+							APR 3,2020
+						</div>	
+						<div style=" flex-direction: row-reverse;font-weight: bolder;">
+							...
+							<br>
+							4:44
+						</div>
+				</div>
+				<div id="latest-song-container" class="margin-class">
+						<div id="latest-song-image"></div>
+						<div style="align-items: center;">
+							Beliver
+							<br>
+							APR 3,2020
+						</div>	
+						<div style=" flex-direction: row-reverse;font-weight: bolder;">
+							...
+							<br>
+							4:44
+						</div>
+				</div>
+				<div id="latest-song-container" class="margin-class">
+						<div id="latest-song-image"></div>
+						<div style="align-items: center;">
+							Beliver
+							<br>
+							APR 3,2020
+						</div>	
+						<div style=" flex-direction: row-reverse;font-weight: bolder;">
+							...
+							<br>
+							4:44
+						</div>
+				</div>
+			</div>
+		
+		<!-- Popular Artists -->
+		<h3 class="text-color div-heading">Popular Artists</h3>
+		<div id="popular-artists">
+			
+			<div id="popular-artists-container">
+			<div>
+				<!-- image of artists -->
+				<div class="artists-image1 margin-class"></div>
+				<!-- name of artists -->
+				<p>Arijit</p>
+			</div>
+			<div>
+				<!-- image of artists -->
+				<div class="artists-image2 margin-class" ></div>
+				<!-- name of artists -->
+				<p>Sonu nigam </p>
+			</div>
+			<div>
+				<!-- image of artists -->
+				<div class=" artists-image3 margin-class"></div>
+				<!-- name of artists -->
+				<p>Atif</p>
+			</div>
+			<div>
+				<!-- image of artists -->
+				<div class="artists-image4 margin-class"></div>
+				<!-- name of artists -->
+				<p>Zayn</p>
+			</div>
+			<div >
+				<!-- image of artists -->
+				
+				<div  class="artists-image5 margin-class">
+				</div>
+				
+				<!-- name of artists -->
+				<p>ColdPlay</p>
+			</div>
+			<div>
+				<!-- image of artists -->
+				<div class="artists-image6 margin-class"></div>
+				<!-- name of artists -->
+				<p>Maroon5</p>
+			</div>
+			</div>
+			
+		</div>
+		
+		<!-- music genere -->
+		<div id="music-genere" >
+			<!-- music-station -->
+			<div id="music-station" class="music-station margin-class">
+				<div>
+					<h4>Music Station</h4>
+				</div>
+			</div>
+			<!-- other divs having genere of music -->
+			<div id="love" class="music-genere-div margin-class ">
+				<div class="music-text">
+					<h3>Love</h3>
+				</div>
+			</div>
+			<div id="retro" class="music-genere-div margin-class">
+				<div class="music-text">
+					<h3>Retro</h3>
+				</div></div>
+			<div id="chill" class="music-genere-div margin-class">
+				<div class="music-text">
+					<h3>Chill</h3>
+				</div>
+			</div>
+			<div id="workout" class="music-genere-div margin-class">
+				<div class="music-text">
+					<h3>Workout</h3>
+				</div>
+			</div>
+			<div id="rock" class="music-genere-div margin-class">
+				<div class="music-text">
+					<h3>Rock</h3>
+				</div>
+			</div>
+			<div id="pop" class="music-genere-div margin-class">
+				<div class="music-text">
+					<h3>Pop</h3>
+				</div>
+			</div>
+		</div>
+		<!-- music type -->
+		<div id="music-type" class="text-center">
+			<div>
+			<div id="party" class="music-type-div margin-class">
+				<div class="music-text">
+					<h2>Party</h2>
+				</div>
+			</div>
+			</div>
+			<div>
+			<div id="electronic" class="music-type-div margin-class">
+				<div class="music-text">
+					<h2>Electronic</h2>
+				</div>
+			</div>
+			</div>
+			<div>
+			<div id="road-trip" class="music-type-div margin-class">
+				<div class="music-text">
+					<h2>Road Trip</h2>
+				</div>
+			</div>
+			</div>
+		</div>
+		<!-- latest english songs -->
+		<h3 class="text-color div-heading">Latest English</h3>
+		<div id="latest-english" >
+			<div id="song-container">
+				<div>
+					<div id="image-container"></div>
+						<p>Beliver</p>
+						<p>APR 3,2020</p>
+				</div>
+				
+				<div >
+					<div id="image-container"></div>
+						<p>Beliver</p>
+						<p>APR 3,2020</p>
+				</div>
+				<div >
+					<div id="image-container"></div>
+						<p>Beliver</p>
+						<p>APR 3,2020</p></div>
+				<div >
+					<div id="image-container"></div>
+						<p>Beliver</p>
+						<p>APR 3,2020</p>
+				</div>
+				<div >
+					<div id="image-container"></div>
+						<p>Beliver</p>
+						<p>APR 3,2020</p>
+				</div>
+				<div >
+					<div id="image-container"></div>
+						<p>Beliver</p>
+						<p>APR 3,2020</p>
+				</div>
+			</div>
+		</div>
+		
+		<!-- latest hindi songs -->
+		<h3 class="text-color div-heading">Latest Hindi</h3>
+		<div id="latest-hindi">
+			<div id="hindi-song-container">
+				<div>
+					<div id="image-container"></div>
+						<p>Beliver</p>
+						<p>APR 3,2020</p>
+				</div>
+				
+				<div >
+					<div id="image-container"></div>
+						<p>Beliver</p>
+						<p>APR 3,2020</p>
+				</div>
+				<div >
+					<div id="image-container"></div>
+						<p>Beliver</p>
+						<p>APR 3,2020</p></div>
+				<div >
+					<div id="image-container"></div>
+						<p>Beliver</p>
+						<p>APR 3,2020</p>
+				</div>
+				<div >
+					<div id="image-container"></div>
+						<p>Beliver</p>
+						<p>APR 3,2020</p>
+				</div>
+				<div >
+					<div id="image-container"></div>
+						<p>Beliver</p>
+						<p>APR 3,2020</p>
+				</div>
+			</div>
+		</div>
+		<!-- music controller is from here -->
+   <div id="footer" style="color: white;">
+		<div id="left-footer-div">
+			<div id="image1" class="image">
+			</div>
+			<div class="song-name" style="width: 50%; height: 100%;">
+				Beliver
+				<br>
+				Imagine Dragons
+			</div>
+			<div style="margin-left: 10%;font-size: 0.9rem;color :white;">
+				<span>
+					<i class="far fa-heart"></i>
+				</span>
+				<span>
+					<i class="fas fa-volume-down"></i>
+				</span>
+				
+			</div>
+		</div>
+		<!-- middle part of the music controller -->
+		<div id="middle-part-footer">
+			<!-- icons for the music controller -->
+			<div class="controller-icons">
+				<div><i class="fas fa-random"></i></div>
+				<div><i class="fas fa-backward"></i></div>
+				<div><i class="far fa-pause-circle"></i></div>
+				<div><i class="fas fa-forward"></i></div>
+				<div><i class="fas fa-sync-alt"></i></div>
+			</div>
+			<!-- this part conatain the slider to adjust the song -->
+			<div class="music-slider text-size">
+				<span style="color: white;">1.00</span>
+				<div>
+					<input type="range" class="slider">
+				</div>
+				<span style="color: white;">4.00</span>
+			</div>
+		</div>
+		<!-- last part of the controller which contails all setting regarding to sound -->
+		<div id="last-part-footer" style="color: white;font-size: 0.8rem;">
+			<span><i class="fas fa-sliders-h"></i></span>
+			<span><i class="fas fa-dot-circle"></i></span>
+			<span><i class="fas fa-volume-up"></i></span>
+			<span>
+				<input type="range">
+			</span>
+
+		</div>
+
+
+</div>
+	
+
+	</main>
+	<aside>
+		<nav>
+			<h3>Queue</h3>
+			<ul>
+				<li><a href="#">Queue</a>
+					<ul>
+						<li><a href="#">playlist</a></li>
+						<li><a href="#">favorites</a></li>
+					</ul>
+				</li>
+			</ul>
+		</nav>
+		
+		
+		<div id="queue" class="text-color">
+			<ol style="list-style-type: decimal-leading-zero;color: white">
+		<li><a href="single-playlist.html" style="text-decoration: none;">
+			<div id="queue-div">
+				<div id="queue-song-image" style="width: 20%;"></div>
+				<div id="queue-song-info">
+					Believer
+					<br>
+					Imagine Dragons
+				</div>
+				<div id="like-button" style="width: 10%;font-size: 1rem;">
+					<i class="far fa-heart"></i>
+				</div>
+			</div>
+			</a>
+		</li>
+		<li><a href="single-playlist.html" style="text-decoration: none;">
+			<div id="queue-div">
+				<div id="queue-song-image" style="width: 20%;"></div>
+				<div id="queue-song-info">
+					Believer
+					<br>
+					Imagine Dragons
+				</div>
+				<div id="like-button" style="width: 10%;font-size: 1rem;">
+					<i class="far fa-heart"></i>
+				</div>
+			</div>
+			</a>
+		</li>
+		<li><a href="single-playlist.html" style="text-decoration: none;">
+			<div id="queue-div">
+				<div id="queue-song-image" style="width: 20%;"></div>
+				<div id="queue-song-info">
+					Believer
+					<br>
+					Imagine Dragons
+				</div>
+				<div id="like-button" style="width: 10%;font-size: 1rem;">
+					<i class="far fa-heart"></i>
+				</div>
+			</div>
+			</a>
+		</li>
+		<li><a href="single-playlist.html" style="text-decoration: none;">
+			<div id="queue-div">
+				<div id="queue-song-image" style="width: 20%;"></div>
+				<div id="queue-song-info">
+					Believer
+					<br>
+					Imagine Dragons
+				</div>
+				<div id="like-button" style="width: 10%;font-size: 1rem;">
+					<i class="far fa-heart"></i>
+				</div>
+			</div>
+			</a>
+		</li>
+		<li><a href="single-playlist.html" style="text-decoration: none;">
+			<div id="queue-div">
+				<div id="queue-song-image" style="width: 20%;"></div>
+				<div id="queue-song-info">
+					Believer
+					<br>
+					Imagine Dragons
+				</div>
+				<div id="like-button" style="width: 10%;font-size: 1rem;">
+					<i class="far fa-heart"></i>
+				</div>
+			</div>
+			</a>
+		</li>
+		<li><a href="single-playlist.html" style="text-decoration: none;">
+			<div id="queue-div">
+				<div id="queue-song-image" style="width: 20%;"></div>
+				<div id="queue-song-info">
+					Believer
+					<br>
+					Imagine Dragons
+				</div>
+				<div id="like-button" style="width: 10%;font-size: 1rem;">
+					<i class="far fa-heart"></i>
+				</div>
+			</div>
+			</a>
+		</li>
+		<li><a href="single-playlist.html" style="text-decoration: none;">
+			<div id="queue-div">
+				<div id="queue-song-image" style="width: 20%;"></div>
+				<div id="queue-song-info">
+					Believer
+					<br>
+					Imagine Dragons
+				</div>
+				<div id="like-button" style="width: 10%;font-size: 1rem;">
+					<i class="far fa-heart"></i>
+				</div>
+			</div>
+			</a>
+		</li>
+		<li><a href="single-playlist.html" style="text-decoration: none;">
+			<div id="queue-div">
+				<div id="queue-song-image" style="width: 20%;"></div>
+				<div id="queue-song-info">
+					Believer
+					<br>
+					Imagine Dragons
+				</div>
+				<div id="like-button" style="width: 10%;font-size: 1rem;">
+					<i class="far fa-heart"></i>
+				</div>
+			</div>
+			</a>
+		</li>
+		<li><a href="single-playlist.html" style="text-decoration: none;">
+			<div id="queue-div">
+				<div id="queue-song-image" style="width: 20%;"></div>
+				<div id="queue-song-info">
+					Believer
+					<br>
+					Imagine Dragons
+				</div>
+				<div id="like-button" style="width: 10%;font-size: 1rem;">
+					<i class="far fa-heart"></i>
+				</div>
+			</div>
+			</a>
+		</li>
+		<li><a href="single-playlist.html" style="text-decoration: none;">
+			<div id="queue-div">
+				<div id="queue-song-image" style="width: 20%;"></div>
+				<div id="queue-song-info">
+					Believer
+					<br>
+					Imagine Dragons
+				</div>
+				<div id="like-button" style="width: 10%;font-size: 1rem;">
+					<i class="far fa-heart"></i>
+				</div>
+			</div>
+			</a>
+		</li>
+		<li><a href="single-playlist.html" style="text-decoration: none;">
+			<div id="queue-div">
+				<div id="queue-song-image" style="width: 20%;"></div>
+				<div id="queue-song-info">
+					Believer
+					<br>
+					Imagine Dragons
+				</div>
+				<div id="like-button" style="width: 10%;font-size: 1rem;">
+					<i class="far fa-heart"></i>
+				</div>
+			</div>
+			</a>
+		</li>
+		<li><a href="single-playlist.html" style="text-decoration: none;">
+			<div id="queue-div">
+				<div id="queue-song-image" style="width: 20%;"></div>
+				<div id="queue-song-info">
+					Believer
+					<br>
+					Imagine Dragons
+				</div>
+				<div id="like-button" style="width: 10%;font-size: 1rem;">
+					<i class="far fa-heart"></i>
+				</div>
+			</div>
+			</a>
+		</li>
+		<li><a href="single-playlist.html" style="text-decoration: none;">
+			<div id="queue-div">
+				<div id="queue-song-image" style="width: 20%;"></div>
+				<div id="queue-song-info">
+					Believer
+					<br>
+					Imagine Dragons
+				</div>
+				<div id="like-button" style="width: 10%;font-size: 1rem;">
+					<i class="far fa-heart"></i>
+				</div>
+			</div>
+			</a>
+		</li>
+		<li><a href="single-playlist.html" style="text-decoration: none;">
+			<div id="queue-div">
+				<div id="queue-song-image" style="width: 20%;"></div>
+				<div id="queue-song-info">
+					Believer
+					<br>
+					Imagine Dragons
+				</div>
+				<div id="like-button" style="width: 10%;font-size: 1rem;">
+					<i class="far fa-heart"></i>
+				</div>
+			</div>
+			</a>
+		</li>
+		<li><a href="single-playlist.html" style="text-decoration: none;">
+			<div id="queue-div">
+				<div id="queue-song-image" style="width: 20%;"></div>
+				<div id="queue-song-info">
+					Believer
+					<br>
+					Imagine Dragons
+				</div>
+				<div id="like-button" style="width: 10%;font-size: 1rem;">
+					<i class="far fa-heart"></i>
+				</div>
+			</div>
+			</a>
+		</li>
+		<li><a href="single-playlist.html" style="text-decoration: none;">
+			<div id="queue-div">
+				<div id="queue-song-image" style="width: 20%;"></div>
+				<div id="queue-song-info">
+					Believer
+					<br>
+					Imagine Dragons
+				</div>
+				<div id="like-button" style="width: 10%;font-size: 1rem;">
+					<i class="far fa-heart"></i>
+				</div>
+			</div>
+			</a>
+		</li>
+		<li><a href="single-playlist.html" style="text-decoration: none;">
+			<div id="queue-div">
+				<div id="queue-song-image" style="width: 20%;"></div>
+				<div id="queue-song-info">
+					Believer
+					<br>
+					Imagine Dragons
+				</div>
+				<div id="like-button" style="width: 10%;font-size: 1rem;">
+					<i class="far fa-heart"></i>
+				</div>
+			</div>
+		</a>
+		</li>
+		<li><a href="single-playlist.html" style="text-decoration: none;">
+			<div id="queue-div">
+				<div id="queue-song-image" style="width: 20%;"></div>
+				<div id="queue-song-info">
+					Believer
+					<br>
+					Imagine Dragons
+				</div>
+				<div id="like-button" style="width: 10%;font-size: 1rem;">
+					<i class="far fa-heart"></i>
+				</div>
+			</div>
+		</a>
+		</li>
+		<li><a href="single-playlist.html" style="text-decoration: none;">
+			<div id="queue-div">
+				<div id="queue-song-image" style="width: 20%;"></div>
+				<div id="queue-song-info">
+					Believer
+					<br>
+					Imagine Dragons
+				</div>
+				<div id="like-button" style="width: 10%;font-size: 1rem;">
+					<i class="far fa-heart"></i>
+				</div>
+			</div>
+		</a>
+		</li>
+		<li><a href="single-playlist.html" style="text-decoration: none;">
+			<div id="queue-div">
+				<div id="queue-song-image" style="width: 20%;"></div>
+				<div id="queue-song-info">
+					Believer
+					<br>
+					Imagine Dragons
+				</div>
+				<div id="like-button" style="width: 10%;font-size: 1rem;">
+					<i class="far fa-heart"></i>
+				</div>
+			</div>
+		</a>
+		</li>
+		<li><a href="single-playlist.html" style="text-decoration: none;">
+			<div id="queue-div">
+				<div id="queue-song-image" style="width: 20%;"></div>
+				<div id="queue-song-info">
+					Believer
+					<br>
+					Imagine Dragons
+				</div>
+				<div id="like-button" style="width: 10%;font-size: 1rem;">
+					<i class="far fa-heart"></i>
+				</div>
+			</div>
+		</a>
+		</li>
+	</ol>
+		</div>
+		
+	</aside>
+	
+
+
+</body>
+</html>

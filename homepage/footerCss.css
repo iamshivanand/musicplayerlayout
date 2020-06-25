@@ -1,0 +1,59 @@
+body{
+	background-color: orange;
+}
+#footer{
+	height: 80px;
+	width: 100%;
+	/*border:2px solid black;*/
+	display: flex;
+	justify-content: space-around;
+	background-image: linear-gradient(black,grey);
+
+	/*overflow: hidden;*/
+}
+
+#footer > div{
+	height: 100%;
+	width:30%; 
+/*	border:2px solid white;*/
+}
+#left-footer-div{
+	height: 100%;
+	width: 30%;
+	display: flex;
+	justify-content: space-around;
+
+}
+#left-footer-div div{
+	height: 100%;
+	width: 25%;
+	/*border:1px solid white;*/
+}
+#image1{
+	height: 100%;
+	width: auto;
+	background-image: url(image/songs-cover.jpg);
+}
+.image{
+	background-size: cover;
+
+}
+#middle-part-footer{
+	display: flex;
+	justify-content: space-around;
+	flex-direction: column;
+}
+#middle-part-footer > div{
+	/*border: 1px solid red;*/
+
+}
+#middle-part-footer > div{
+	display: flex;
+	justify-content: space-around;
+
+}
+#last-part-footer{
+	margin-top:30px;
+	display: flex;
+	justify-content: space-around;
+}
